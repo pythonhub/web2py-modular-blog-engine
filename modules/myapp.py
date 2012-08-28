@@ -87,6 +87,7 @@ class DataBase(DAL):
     """
     def __init__(self, config, datamodels=None):
         self._LAZY_TABLES = []
+        self._tables = []
         self.config = config
         DAL.__init__(self,
                      **config.db)
