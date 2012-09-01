@@ -86,8 +86,8 @@ class DataBase(DAL):
     auto instantiate datamodels
     """
     def __init__(self, config, datamodels=None):
-        self._LAZY_TABLES = []
-        self._tables = []
+        self._LAZY_TABLES = dict()
+        self._tables = dict()
         self.config = config
         DAL.__init__(self,
                      **config.db)
