@@ -8,6 +8,13 @@ web2py loads scripts under /models folders in alphabetical order, and it is load
 
 ### features
 
-This app comes with a simple blog engine offering urls-slugs, multi author, author picture grabbed from gravatar.com, WYSIWYG editor with CKeditor supporting image uploads inside the editor.
+This app comes with: 
+
+- a simple blog engine
+- urls-slugs
+- multi author
+- author picture grabbed from gravatar.com
+- WYSIWYG editor with CKeditor supporting image uploads inside the editor
+- multi theme support
 
 Author: Bruno Cezar Rocha / 2011
