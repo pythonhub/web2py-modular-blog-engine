@@ -2,36 +2,58 @@
 S'group_id'
 p2
 (dp3
-S'type'
+S'length'
 p4
-S'reference auth_group'
+I512
+sS'unique'
 p5
+I00
 sS'sortable'
 p6
 I3
 sS'sql'
 p7
-S'INTEGER REFERENCES auth_group(id) ON DELETE CASCADE'
+S'INTEGER REFERENCES auth_group (id) ON DELETE CASCADE'
 p8
-ssS'user_id'
+sS'notnull'
 p9
-(dp10
-g4
-S'reference auth_user'
+I00
+sS'type'
+p10
+S'reference auth_group'
 p11
+ssS'user_id'
+p12
+(dp13
+g4
+I512
+sg5
+I00
 sg6
 I2
 sg7
-S'INTEGER REFERENCES auth_user(id) ON DELETE CASCADE'
-p12
+S'INTEGER REFERENCES auth_user (id) ON DELETE CASCADE'
+p14
+sg9
+I00
+sg10
+S'reference auth_user'
+p15
 ssS'id'
-p13
-(dp14
+p16
+(dp17
 g4
-g13
+I512
+sg5
+I00
 sg6
 I1
 sg7
 S'INTEGER PRIMARY KEY AUTOINCREMENT'
-p15
+p18
+sg9
+I00
+sg10
+S'id'
+p19
 ss.

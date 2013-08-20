@@ -88,3 +88,11 @@ CREATE TABLE plugin_ckeditor_upload(
 success!
 timestamp: 2012-01-28T09:44:35.080322
 ALTER TABLE blog_post ADD description TEXT;
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
