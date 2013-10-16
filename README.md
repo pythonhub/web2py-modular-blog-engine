@@ -18,3 +18,7 @@ This app comes with:
 - multi theme support
 
 Author: Bruno Cezar Rocha / 2011
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pythonhub/web2py-modular-blog-engine/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
